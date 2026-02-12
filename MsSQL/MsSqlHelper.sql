@@ -1,6 +1,5 @@
-## Create Table 
+-- Create Table 
 
-```sql
   CREATE TABLE Users (
     id INT IDENTITY(1,1) PRIMARY KEY,
     Name VARCHAR(255),
@@ -8,4 +7,3 @@
     Password NVARCHAR(30),
     UserName Varchar(30),
 );
-```
